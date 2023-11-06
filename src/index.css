@@ -1,0 +1,97 @@
+/* Common CSS Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* nav Section Here */
+nav {
+  background-color: dimgrey;
+  padding: 15px 0;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: wheat;
+  font-size: 50px;
+}
+
+.menu ul {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu ul li a {
+  color: wheat;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+.menu ul li a.active {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+/* footer section here */
+
+footer {
+  background-color: darkcyan;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .footer_wrapper p {
+  font-size: 30px;
+  color: wheat;
+}
+
+
+/* error part  */
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px
+}
+
+.error h2 {
+  font-size: 80px;
+}
+
+.error a {
+  padding: 25px 50px;
+  background-color: darkorange;
+  color: white;
+}
